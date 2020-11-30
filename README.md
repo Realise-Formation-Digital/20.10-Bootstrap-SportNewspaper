@@ -1,4 +1,4 @@
-# Bootstrap-SportNewspaper-master
+# Bootstrap-SportNewspaper
 
 Hello helloooo!
 Here it is our first website with Bootstrap !
