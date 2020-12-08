@@ -237,68 +237,109 @@
 
     </div>
   </div>
+  <!-- main-panel ends -->
 
-  <!-- login Modal HTML -->
-  <div id="myModal" class="modal fade">
-    <div class="modal-dialog modal-login">
-      <div class="modal-content">
-        <form action="/examples/actions/confirmation.php" method="post">
-          <div class="modal-header">
-            <h4 class="modal-title">Connection</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          </div>
-          <div class="modal-body">
-            <div class="form-group">
-              <label>Nom d'utilisateur</label>
-              <input type="text" class="form-control" required="required">
-            </div>
-            <div class="form-group">
-              <div class="clearfix">
-                <label>Mot de passe</label>
-                <a href="#" class="float-right text-muted"><small>Mot de passe oublié?</small></a>
+      <!-- login Modal HTML -->
+      <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-login">
+          <div class="modal-content">
+            <form action="/examples/actions/confirmation.php" method="post">
+              <div class="modal-header">
+                <h4 class="modal-title">Connection</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
               </div>
+              <div class="modal-body">
+                <div class="form-group">
+                  <label>Nom d'utilisateur</label>
+                  <input type="text" class="form-control" required="required">
+                </div>
+                <div class="form-group">
+                  <div class="clearfix">
+                    <label>Mot de passe</label>
+                    <a href="#" class="float-right text-muted"><small>Mot de passe oublié?</small></a>
+                  </div>
 
-              <input type="password" class="form-control" required="required">
-            </div>
+                  <input type="password" class="form-control" required="required">
+                </div>
+              </div>
+              <div class="modal-footer justify-content-between">
+                <label class="form-check-label"><input type="checkbox"> Se souvenir de moi</label>
+                <input type="submit" class="btn btn-primary" value="Login">
+              </div>
+            </form>
           </div>
-          <div class="modal-footer justify-content-between">
-            <label class="form-check-label"><input type="checkbox"> Se souvenir de moi</label>
-            <input type="submit" class="btn btn-primary" value="Login">
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- Contact Modal HTML -->
-  <div id="contactModal" class="modal fade">
-    <div class="modal-dialog contact-modal">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Contactez-nous</h4>
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        </div>
-        <div class="modal-body">
-          <form action="/examples/actions/confirmation.php" method="post">
-            <div class="form-group">
-              <label for="inputName">Nom</label>
-              <input type="text" class="form-control" id="inputName" required>
-            </div>
-            <div class="form-group">
-              <label for="inputEmail">Email</label>
-              <input type="email" class="form-control" id="inputEmail" required>
-            </div>
-            <div class="form-group">
-              <label for="inputMessage">Message</label>
-              <textarea class="form-control" id="inputMessage" rows="4" required></textarea>
-            </div>
-            <input type="submit" class="btn btn-primary" value="Send">
-            <input type="button" class="btn btn-link" data-dismiss="modal" value="Cancel">
-          </form>
         </div>
       </div>
-    </div>
-  </div>
+
+      <!-- Contact Modal HTML -->
+      <div id="contactModal" class="modal fade">
+        <div class="modal-dialog contact-modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Contact</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              <!-- Google maps-->
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h4>Adresse</h4>
+                    <ul>
+                      <li>8, rue Viguet - 1227 Les Acacias </li>
+                    </ul>
+                    <h4>Téléphone</h4>
+                    <ul>
+                      <li>+ 41 (0)22 308 60 10</li>
+                    </ul>
+                    <h4>Horaires</h4>
+                    <ul>
+                      <li>Du lundi au vendredi, de 9h à 17H</li>
+                    </ul>
+                  </div>
+                </div>
+              </div><br>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h4>Localisation</h4>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.8802012085266!2d6.12650291555611!3d46.19294257911629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b2e1299827b%3A0xb6bbc30dd8e5306f!2sr%C3%A9alise%20-%20magasin%20d&#39;informatique%20d&#39;occasion!5e0!3m2!1sfr!2sch!4v1605783655516!5m2!1sfr!2sch"
+                      width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                      tabindex="0"></iframe>
+                  </div>
+                </div>
+              </div><br>
+              <div class="container">
+
+                <!-- partial -->
+                <div class="row">
+                  <div class="col">
+                    <h4>Contactez-nous</h4>
+                    <form action="/examples/actions/confirmation.php" method="post">
+                      <div class="form-group">
+                        <label for="inputName">Nom</label>
+                        <input type="text" class="form-control" id="inputName" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputMessage">Message</label>
+                        <textarea class="form-control" id="inputMessage" rows="4" required></textarea>
+                      </div>
+                      <input type="submit" class="btn btn-primary" value="Send">
+                      <input type="button" class="btn btn-link" data-dismiss="modal" value="Cancel">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ./Contact Modal HTML -->
 
   <!-- footer-->
   <footer>
@@ -372,32 +413,7 @@
 
 
   <!-- partial -->
-  <!-- Google maps-->
-  <div class="container">
-    <div class="row mt-4">
-      <div class="col-sm-6">
-        <h4>Adresse</h4>
-        <ul>
-          <li>8, rue Viguet - 1227 Les Acacias </li>
-        </ul>
-        <h4>Téléphone</h4>
-        <ul>
-          <li>+ 41 (0)22 308 60 10</li>
-        </ul>
-        <h4>Horaires</h4>
-        <ul>
-          <li>Du lundi au vendredi, de 9h à 17H</li>
-        </ul>
-      </div>
-      <div class="col-sm-6">
-        <h4>Contact</h4>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.8802012085266!2d6.12650291555611!3d46.19294257911629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b2e1299827b%3A0xb6bbc30dd8e5306f!2sr%C3%A9alise%20-%20magasin%20d&#39;informatique%20d&#39;occasion!5e0!3m2!1sfr!2sch!4v1605783655516!5m2!1sfr!2sch"
-          width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-          tabindex="0"></iframe>
-      </div>
-    </div>
-  </div>
+ 
   <!-- inject:js -->
   <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
   <!-- endinject -->
