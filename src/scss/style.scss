@@ -1,3 +1,15 @@
 body{
-    color: yellow;
+    background-color: green; ;
+}
+
+#loginModal{
+  background-color: rgba($color: #08ec00, $alpha: 0.5);  
+}
+
+#newPageModal{
+    background-color: rgba($color: rgb(4, 0, 255), $alpha: 0.25);
+}
+
+#newPageModal{
+    background-color: rgba($color: #6200ff, $alpha: 0.5);
 }
