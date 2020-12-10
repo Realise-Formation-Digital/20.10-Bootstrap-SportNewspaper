@@ -10,8 +10,12 @@ body {
   background-color: rgba(4, 0, 255, 0.25);
 }
 
-#newPageModal {
-  background-color: rgba(98, 0, 255, 0.5);
+#contact-modal-content {
+  background-color: rgba(98, 0, 255, 0.75);
+}
+
+.contact-modal-content-adresse {
+  background-color: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */
