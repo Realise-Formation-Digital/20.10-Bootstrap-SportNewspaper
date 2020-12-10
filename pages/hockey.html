@@ -115,7 +115,7 @@
                     <a href="#contactModal" class="nav-link blanc" data-toggle="modal">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#myModal" class="nav-link blanc" data-toggle="modal">Login</a>
+                    <a href="#loginModal" class="nav-link blanc" data-toggle="modal">Login</a>
                   </li>
 
                   <li class="nav-item">
@@ -258,7 +258,7 @@
       </div>
 
       <!-- login Modal HTML -->
-      <div id="myModal" class="modal fade">
+      <div id="loginModal" class="modal fade">
         <div class="modal-dialog modal-login">
           <div class="modal-content">
             <form action="/examples/actions/confirmation.php" method="post">
@@ -266,10 +266,13 @@
                 <h4 class="modal-title">Connection</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
               </div>
+
+
               <div class="modal-body">
                 <div class="form-group">
-                  <label>Nom d'utilisateur</label>
-                  <input type="text" class="form-control" required="required">
+                  <label for="exampleFormControlInput1" class="form-label">email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="yourname@yourdomain.com">
                 </div>
                 <div class="form-group">
                   <div class="clearfix">
@@ -277,7 +280,13 @@
                     <a href="#" class="float-right text-muted"><small>Mot de passe oublié?</small></a>
                   </div>
 
-                  <input type="password" class="form-control" required="required">
+                  <label for="inputPassword5" class="form-label">Password</label>
+                  <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                  <div id="passwordHelpBlock" class="form-text text-muted">
+                    Votre mot de passe doit contenir au moins, une lettre majuscule, une lettre minuscule et au moins un
+                    caractère spécial.
+                  </div>
+
                 </div>
               </div>
               <div class="modal-footer justify-content-between">
