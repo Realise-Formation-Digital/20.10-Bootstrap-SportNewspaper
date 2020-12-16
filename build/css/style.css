@@ -2,6 +2,7 @@ body {
   background-color: green;
 }
 
+/*
 #loginModal {
   background-color: rgba(8, 236, 0, 0.5);
 }
@@ -11,11 +12,11 @@ body {
 }
 
 #contact-modal-content {
-  background-color: rgba(98, 0, 255, 0.75);
+  background-color: #A81E1C;
 }
 
 .contact-modal-content-adresse {
-  background-color: yellow;
-}
+  background-color: white;
+} */
 
 /*# sourceMappingURL=style.css.map */
