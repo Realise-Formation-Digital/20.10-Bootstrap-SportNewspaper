@@ -1,4 +1,14 @@
-<!-- Title du sport. Ici qui sommes-nous -->
+<!DOCTYPE html>
+<html lang="fr">
+<?php require 'partials/head.php'?>
+<body>
+
+
+  <!-- Entête avec le logo de la page-->
+  <?php require 'partials/header.php'?>
+
+  <!-- Main-panel -->
+  <!-- Title du sport. Ici qui sommes-nous -->
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
@@ -17,7 +27,7 @@
         <!-- Nouvelle principale titulaire -->
         <div class="col-lg-6  mb-5 mb-sm-2">
             <div class="position-relative image-hover">
-                <img src="../assets/images/qui-sommes-nous-640x477.jpg" class="img-fluid" alt="qui sommes nous" />
+                <img src="assets/images/qui-sommes-nous-640x477.jpg" class="img-fluid" alt="qui sommes nous" />
             </div>
         </div>
 
@@ -59,7 +69,7 @@
         <div class="col-sm-3  mb-5 mb-sm-2">
             <div class="position-relative image-hover">
                 <a href="hockey.html">
-                    <img src="../assets/images/sports/Sports_20.jpg" class="img-fluid" alt="Sarsport" />
+                    <img src="assets/images/sports/Sports_20.jpg" class="img-fluid" alt="Sarsport" />
                     <span class="thumb-title">HOCKEY</span>
                 </a>
             </div>
@@ -71,7 +81,7 @@
         <div class="col-sm-3  mb-5 mb-sm-2">
             <div class="position-relative image-hover">
                 <a href="hockey.html">
-                    <img src="../assets/images/sports/Sports_20.jpg" class="img-fluid" alt="Sarsport" />
+                    <img src="assets/images/sports/Sports_20.jpg" class="img-fluid" alt="Sarsport" />
                     <span class="thumb-title">HOCKEY</span>
                 </a>
             </div>
@@ -82,7 +92,7 @@
         <div class="col-sm-3  mb-5 mb-sm-2">
             <div class="position-relative image-hover">
                 <a href="tennis.html">
-                    <img src="../assets/images/sports/Sports_14.jpg" class="img-fluid" alt="Sarsport" />
+                    <img src="assets/images/sports/Sports_14.jpg" class="img-fluid" alt="Sarsport" />
                     <span class="thumb-title">TENNIS</span>
                 </a>
             </div>
@@ -93,7 +103,7 @@
         <div class="col-sm-3  mb-5 mb-sm-2">
             <div class="position-relative image-hover">
                 <a href="tennis.html">
-                    <img src="../assets/images/sports/Sports_16.jpg" class="img-fluid" alt="Sarsport" />
+                    <img src="assets/images/sports/Sports_16.jpg" class="img-fluid" alt="Sarsport" />
                     <span class="thumb-title">TENNIS</span>
                 </a>
             </div>
@@ -103,3 +113,11 @@
         </div>
     </div>
 </div>
+
+  <!-- footer and scripts-->
+  <?php require 'partials/footer.php'?>
+  </div>
+  </div>
+</body>
+
+</html>

@@ -129,8 +129,6 @@
 
     </div>
 
-    <!-- Formulaire de connection -->
-    <?php require 'partials/login.php'?>
     <!-- footer and scripts-->
     <?php require 'partials/footer.php'?>
     </div>
