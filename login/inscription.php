@@ -41,7 +41,6 @@
                 </div>
                 <div class="form-group" align="center">
                     <input type="submit" name="submit" class="btn btn-success" href="../index.php" value="OK" />
-
                     <button type="button" name="annuler" class="btn btn-warning"><a class="nav-link" href="../index.php">Annuler</a></button>
                 </div>
             </form>

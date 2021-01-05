@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
 <?php require 'partials/head.php'?>
-
 <body>
     <!-- Entête avec le logo de la page-->
     <?php require 'partials/header.php'?>
@@ -117,5 +116,4 @@
     </div>
     </div>
 </body>
-
 </html>
